@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Tip calculator app</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="outside-body">
+      <div id="title">SPLI<br />TTER</div>
+      <div id="inside-body">
+        <div id="bill-details">
+          <div id="bill">Bill</div>
+          <input type="number" id="input-bill-amount" />
+          <div>Select Tip %</div>
+          <div id="btns-tip">
+            <button class="btn">5%</button>
+            <button class="btn">10%</button>
+            <button class="btn">15%</button>
+            <button class="btn">25%</button>
+            <button class="btn">50%</button>
+            <input type="number" placeholder="Custom" id="input-custom" />
+          </div>
+          <div id="input-people">
+            <div>Number of people</div>
+            <input class="input-people" type="number" size="1000" />
+          </div>
+        </div>
+        <div id="bill-result">
+          <div class="result-entry">
+            <div class="text-tip">
+              Tip Amount <br />
+              <p>/ person</p>
+            </div>
+            <div class="tip-result">$ 0.0</div>
+          </div>
+          <div class="result-entry">
+            <div class="text-tip">
+              Tip Amount <br />
+              <p>/ person</p>
+            </div>
+            <div class="tip-result">$ 0.0</div>
+          </div>
+
+          <button id="btn-reset">Reset</button>
+        </div>
+      </div>
+      <!-- <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div> -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

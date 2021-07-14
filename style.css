@@ -1,0 +1,136 @@
+body {
+  /* display: flex; */
+  font-family: "Space Mono", monospace;
+  background-color: hsl(170, 41%, 83%);
+}
+
+/* #outside-body {
+  width: auto;
+  margin: auto;
+  height: auto;
+} */
+
+#title {
+  text-align: center;
+  margin-top: 10%;
+  /* justify-content: center; */
+}
+
+#inside-body {
+  display: flex;
+  margin: 20px 250px 250px 250px;
+  padding: 20px 50px 30px 50px;
+  background-color: white;
+  /* border: 2px solid black; */
+  border-radius: 20px;
+  /* flex-wrap: wrap; */
+  /* margin: auto; */
+}
+
+#bill-details {
+  width: 50vw;
+}
+
+button {
+  background-color: darkslategray;
+  height: 30px;
+  color: white;
+}
+
+#btns-tip {
+  display: flex;
+  flex-wrap: wrap;
+  /* width: 50%; */
+  margin-top: 5px;
+  margin-bottom: 25px;
+}
+
+.btn {
+  margin: 2px 5px 5px 2px;
+  width: 100px;
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+}
+
+.input-people {
+  width: 85%;
+  height: 25px;
+  border: none;
+  background-color: rgb(234, 242, 245);
+  text-align: right;
+}
+
+#input-custom {
+  margin: 2px 5px 5px 2px;
+  width: 92px;
+  text-align: center;
+}
+
+::placeholder {
+  color: darkgreen;
+  font-family: "Space Mono", monospace;
+  font-size: 18px;
+}
+
+#input-bill-amount {
+  width: 85%;
+  margin-bottom: 25px;
+  height: 25px;
+  border: none;
+  background-color: rgb(234, 242, 245);
+  text-align: right;
+}
+
+#bill-result {
+  background-color: darkgreen;
+  color: white;
+  width: 50vw;
+  border-radius: 20px;
+  padding-left: 15px;
+  /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.result-text {
+  display: flex;
+}
+
+.result-entry {
+  /* display: inline-block; */
+  margin-top: 40px;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  /* width: 50%; */
+}
+
+/* .text-tip {
+  float: left;
+} */
+
+.tip-result {
+  position: relative;
+  float: right;
+  right: 10px;
+  font-size: 25px;
+  /* width: 50% */
+}
+
+#btn-reset {
+  position: relative;
+  float: center;
+  margin: 25px 25px 25px 25px;
+  width: 85%;
+  /* background-color: rgb(109, 179, 109); */
+  height: 30px;
+  color: black;
+  font-size: 19px;
+  text-transform: uppercase;
+}
+
+p {
+  font-size: 0.75rem;
+}
+
+.active {
+  background-color: rgb(17, 68, 65);
+}
